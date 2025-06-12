@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta author="NotFire">
+    <title>Game Servers | NeoCloud</title>
+
+    <!-- SEO for Game Servers -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_us"/>
+    <meta name="og:description" content="" />
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#2b2f32"/>
+    <meta property="og:site_name" content="NeoCloud Hosting"/>
+    <meta property="og:url" content=""/>
+    <meta name="og:image" content=""/>
+    <meta name="og:image:width" content="1200">
+    <meta name="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logoneo.png"/>
+
+    <!-- Bootstrap v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Poppins Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>   
+    <div class="object_1 text-center">
+        <img src="assets/images/vector_object_1.png" class="img-fluid">
+    </div>
+    
+    <!-- Navbar -->
+    <nav id="fixedR" class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid container-custom">
+        <a class="navbar-brand text-white" href="index.html">
+            <div class="d-flex">
+                <img class="mr-2" src="assets/images/logoneo.png">
+                <h2 class="mb-0 d-flex align-items-center">Neo<span>Cloud</span></h2>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarType" aria-controls="navbarType" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start-lg" tabindex="-1" id="navbarType" aria-labelledby="navbarType">
+            <div class="offcanvas-header d-flex d-lg-none">
+                <div class="d-flex">
+                    <img class="mr-2" src="assets/images/logoneo.png">
+                    <h2 class="mb-0 d-flex align-items-center">Neo<span>Cloud</span></h2>
+                </div>
+            </div>
+            <div class="offcanvas-body p-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="game-servers.html">Game Servers</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="game-servers.html#" data-bs-toggle="dropdown">Hosting</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="web-hosting.html">Web Hosting <span class="d-block">Making a business</span></a></li>
+                          <li><a class="dropdown-item" href="vps-hosting.html">VPS Hosting <span class="d-block">Create your own server</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <div class="button">
+                        <div class="dropdown">
+                            <a href="game-servers.html#" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/images/user.svg"> Login</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="#">
+                                <li><a class="dropdown-item" href="game-servers.html#">Billing Panel <span class="d-block">Billing and Support</span></a></li>
+                                <li><a class="dropdown-item" href="game-servers.html#">Game Panel <span class="d-block">Game Management</span></a></li>
+                                <li><a class="dropdown-item" href="game-servers.html#">Web Panel <span class="d-block">cPanel Management</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+    <!-- Header -->
+    <div class="header">
+        <div class="container-fluid container-custom">
+            <div class="text-center">
+                <h2 class="mb-2">Game <span class="blue">Server</span> Hosting</h2>
+                <p>Powerful game server hosting on high-end enterprise hardware with quality DDoS protection.<br /> Performance and reliability on a budget is our speciality.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 mx-auto">
+                    <div class="form-group form_box mt-3">
+                        <span class="form-control-icon"></span>
+                        <input class="form-control" type="text" id="search_game" name="search" placeholder="Search your game ...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Games -->
+    <div class="games pb-5">
+        <div class="container-fluid container-custom">
+            <div class="row" id="game-container" style="overflow:hidden;margin: 0px">
+                <div class="game_item col-lg-3 col-md-6" data-filter-name="MC, Minecraft">
+                    <div class="card mb-4">
+                        <img src="assets/images/products_img/minecraft.png" class="card-img-top card-img-bottom" alt="Minecraft">
+                        <div class="products_top">
+                            <span data-bs-toggle="tooltip" data-bs-placement="top" title="Windows">
+                                <img src="assets/images/windows.svg">
+                            </span>
+                        </div>
+                        <div class="products_content">
+                            <h2 class="my-0">Minecraft</h2>
+                            <span class="d-block">&dollar;1.40 /GB</span>
+                            <a href="minecraft.html" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tech_processor py-5">
+        <div class="container-fluid container-custom">
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-5 tech_img">
+                    <img src="assets/images/cpus.webp" class="img-fluid">
+                </div>
+                <div class="col-md-7 d-flex align-items-center">
+                    <div class="tech_text">
+                        <h2>Intel Xeon X5670</h2>
+                        <p>You can use the performance of your Game servers with the Intel Xeon X5670 processor model. You can choose this processor model over your product. You can use your Game servers on these processors without any performance loss. The best Game servers rental</p>
